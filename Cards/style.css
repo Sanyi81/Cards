@@ -11,9 +11,12 @@
     height: 300px;
     border: 1px solid gray;
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
+
 }
 .ring {
     width: 100px;
@@ -21,11 +24,13 @@
     border: 1px solid gray;
     border-radius: 50%;
     position: absolute;
-    left: 70px;
     top: -60px;
     background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-i {
+.ring i {
     font-size: 40px;
     position: absolute;
     left: 25px;
