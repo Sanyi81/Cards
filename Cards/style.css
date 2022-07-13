@@ -45,7 +45,7 @@ p {
     padding: 20px;
     color: gray;
 }
-.botton-border {
+.button-border {
     width: 100px;
     height: 30px;
     border: 1px solid black;
@@ -54,7 +54,7 @@ p {
     align-items: center;
     margin-left: 75px;
 }
-.botton-border:hover {
+.button-border:hover {
     background: darkturquoise;
     cursor: pointer;
 }
